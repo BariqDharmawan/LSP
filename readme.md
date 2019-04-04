@@ -9,18 +9,33 @@
 
 ## About Laravel
 
-## Report Pembayaran error gan :V 
+<ol>
+    <li>Download projectnya</li>
+    <li>Jalankan composer install</li>
+    <li>Jalankan php artisan key:generate</li>
+    <li>Jalankan php artisan migrate:fresh --seed</li>
+    <li>Jalankan php artisan serve</li>
+</ol>
 
-1.) Download project na, terus buka directory project 'sudo composer install'
-2.) Samain file .env sama database mongo kalean.
-3.) php artisan migrate:fresh --seed
-4.) Ada 3 role : Admin, SuperAdmin, Kasir
-	Admin : email/pw = admin@gmail.com / 888888
-	SuperAdmin : email/pw = superadmin@gmail.com / 888888
-	Kasir : email/pw = kasir@gmail.com / 888888
-5.) Cobain atu-atu.. Ubah-ubahin yaa, bedain gann
-6.) Oya kalo ada error coba dulu yaa.. Ini project na gada edit na maapin eh wkwk
-7.) Happy Kudingg
+## Akun Seeder
+         [
+          'name' => "Teknosop Admin",
+          'email' => "admin@gmail.com",
+          'password' => Hash::make("888888"),
+          'akses' => "Admin Gudang"
+        ],
+        [
+          'name' => "Teknosop SuperAdmin",
+          'email' => "superadmin@gmail.com",
+          'password' => Hash::make("888888"),
+          'akses' => "Admin Utama"
+        ],
+        [
+          'name' => "Teknosop Kasir",
+          'email' => "kasir@gmail.com",
+          'password' => Hash::make("888888"),
+          'akses' => "Kasir"
+        ]
 
 ## License
 
