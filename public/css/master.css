@@ -1,0 +1,54 @@
+nav {
+    background-color: #28a060 !important;
+    color: #f9f9f9 !important;
+}
+nav > button:first-child span {
+  color: #ffffff !important;
+  font-size: 30px !important;
+}
+nav li:first-child a {
+  font-weight: bold;
+  font-size: 20px;
+}
+.navview .navview-pane .pull-button:active, .navview .navview-pane .pull-button:focus,
+.navview .navview-pane .navview-menu li a:focus {
+  background-color: #1d7a48 !important;
+  border-color: #1d7a48 !important;
+}
+.input .prepend, .select .prepend, .button, .table .sortable-column.sort-asc,
+.pagination .page-item:not(.no-link), .select .active a {
+  background-color: #278aa5 !important;
+  border-color: #278aa5 !important;
+}
+.table.table-border, .table thead, .dialog, .textarea {
+  border-color: #278aa5 !important;
+}
+.dialog .dialog-actions {
+  display: flex;
+  background-color: #ededed !important;
+  justify-content: space-between;
+  border-color: #ededed !important;
+}
+
+.input, .select, .d-menu, .v-menu {
+  border-color: #278aa5 !important;
+}
+.navview.compact-md.expanded-lg nav li a {
+  padding: 0 10px !important;
+}
+h2 {
+  margin-top: 20px;
+}
+.app-bar-menu li {
+  list-style: none!important;
+}
+.abc {
+  margin-top: 7px;
+}
+.table {
+  border: 1px solid #a8a8a8 !important;
+  border-radius: 10px !important;
+}
+.table-rows-block {
+  margin-top: 15px;
+}
